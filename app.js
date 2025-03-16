@@ -31,7 +31,7 @@ function atualizarLista() {
 // Função para sortear um amigo de forma aleatória
 function sortearAmigo(){
     if (amigos.length == 0) { // Verifica se a lista de amigos está vazia
-        alert("Adicione pelo menos três amigos antes de sortear."); // Exibe um alerta caso não haja amigos na lista
+        alert("Adicione pelo menos o nome de um amigo antes de sortear."); // Exibe um alerta caso não haja amigos na lista
         return; // Interrompe a execução da função
     }
     
